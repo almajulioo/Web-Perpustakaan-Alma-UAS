@@ -1,4 +1,4 @@
-# **Penjelasan Website Manajemen Buku **
+# Penjelasan Website Manajemen Buku
 
 ## **Bagian 1: Client-side Programming (Bobot: 30%)**
 
@@ -75,4 +75,25 @@
 ## Bagian Bonus: Hosting Aplikasi Web (Bobot: 20%)##
 
 - **Apa langkah-langkah yang Anda lakukan untuk meng-host aplikasi web Anda?**:
-  -
+
+  - Pertama saya melakukan pencarian cara melakukan hosting gratis
+  - Kemudian saya menemukan hosting di infinityfree.com
+  - Lalu saya melakukan pemilihan domain http://perpusalma.42web.io/
+  - Setelah itu, mengupload semua file ke dalam folder htdocs di filemanager
+  - Kemudian menyesuaikan konfigurasi database dengan database yang sudah disediakan dalam server
+  - Melakukan pengetesan
+  - Selesai
+
+- **Pilih penyedia hosting web yang menurut Anda paling cocok untuk aplikasi web Anda.**:
+
+  - Saya memilih https://infinityfree.com, dikarenakan hosting, domain dan databasenya gratis. Selain itu, hostingnya mudah dan cepat.
+
+- **Bagaimana Anda memastikan keamanan aplikasi web yang Anda host?**:
+
+  - Saya memastikan keamanannya dengan melakukan penyetelan agar file memiliki permission 0644 yaitu read only sehingga pengguna tidak bisa melakukan pengeditan pada file
+
+- **Jelaskan konfigurasi server yang Anda terapkan untuk mendukung aplikasi web Anda.**:
+  - Saya menggunakan layanan hosting gratis InfinityFree yang mendukung PHP, MySQL, dan file manager berbasis web.
+  - Web Server: Apache.
+  - Bahasa Pemrograman: PHP 7.4.
+  - Database: MySQL.
