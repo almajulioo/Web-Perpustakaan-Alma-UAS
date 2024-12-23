@@ -1,0 +1,192 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+}
+
+.error-message {
+  color: red;
+  margin: 0;
+  font-size: 12px;
+}
+
+.bukuError,
+.penulisError,
+.tahunTerbitError {
+  display: none;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  background: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #343a40;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin-top: 40px;
+  text-align: center;
+  color: #495057;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ced4da;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"],
+input[type="radio"] {
+  margin-right: 8px;
+}
+
+button {
+  width: 100%;
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: #ffffff;
+}
+
+table th,
+table td {
+  border: 1px solid #dee2e6;
+  padding: 12px;
+  text-align: left;
+  color: #495057;
+  font-size: 14px;
+}
+
+table th {
+  background-color: #f1f3f5;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+table tr:nth-child(even) {
+  background-color: #f8f9fa;
+}
+
+#responseMessage {
+  text-align: center;
+  margin: 15px 0;
+  font-size: 14px;
+  color: #28a745;
+}
+
+@media (max-width: 600px) {
+  .container {
+    padding: 15px;
+  }
+
+  h1,
+  h2 {
+    font-size: 20px;
+  }
+
+  label {
+    font-size: 14px;
+  }
+
+  input[type="text"],
+  input[type="number"],
+  button {
+    font-size: 14px;
+    padding: 8px;
+  }
+
+  table th,
+  table td {
+    font-size: 12px;
+    padding: 10px;
+  }
+
+  button {
+    font-size: 14px;
+  }
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #121212; /* Background utama */
+  color: #e0e0e0; /* Warna teks */
+}
+
+.dark-mode .container {
+  background-color: #1e1e1e; /* Background container */
+  color: #e0e0e0;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Bayangan lebih gelap */
+}
+
+.dark-mode h1,
+.dark-mode h2 {
+  color: #ffffff;
+}
+
+.dark-mode input,
+.dark-mode button,
+.dark-mode table {
+  background-color: #2b2b2b; /* Background elemen input/button */
+  color: #ffffff; /* Warna teks */
+  border: 1px solid #444;
+}
+
+.dark-mode input::placeholder {
+  color: #bbbbbb;
+}
+
+.dark-mode button {
+  background-color: #444;
+  border: none;
+}
+
+.dark-mode button:hover {
+  background-color: #555;
+}
+
+.dark-mode table th,
+.dark-mode table td {
+  background-color: #2b2b2b; /* Background tabel */
+  color: #e0e0e0; /* Warna teks */
+}
+
+.dark-mode .error-message {
+  color: #ff6b6b; /* Warna pesan error */
+}
